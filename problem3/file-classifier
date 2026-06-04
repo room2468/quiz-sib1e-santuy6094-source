@@ -36,7 +36,6 @@ while IFS= read -r filename; do
     #             ;;
     #     esac
 
-    # TODO: Replace this line with your case statement
 
     case "$filename" in
         *.sh)
