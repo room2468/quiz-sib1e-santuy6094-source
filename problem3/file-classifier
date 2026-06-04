@@ -10,7 +10,7 @@ logs=0
 configs=0
 others=0
 
-while IFS= read -r filename; do
+while IFS= read -r filename || [[ -n "$filename" ]]; do
     # Step 1: Check the file extension using a case statement.
     #   Use: case "$filename" in
     #
